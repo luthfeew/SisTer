@@ -81,6 +81,7 @@
             this.dgv1.RowTemplate.Height = 24;
             this.dgv1.Size = new System.Drawing.Size(521, 150);
             this.dgv1.TabIndex = 9;
+            this.dgv1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgv1_MouseClick);
             // 
             // btnHapus
             // 
@@ -90,6 +91,7 @@
             this.btnHapus.TabIndex = 8;
             this.btnHapus.Text = "Hapus";
             this.btnHapus.UseVisualStyleBackColor = true;
+            this.btnHapus.Click += new System.EventHandler(this.btnHapus_Click);
             // 
             // btnUbah
             // 
@@ -99,6 +101,7 @@
             this.btnUbah.TabIndex = 7;
             this.btnUbah.Text = "Ubah";
             this.btnUbah.UseVisualStyleBackColor = true;
+            this.btnUbah.Click += new System.EventHandler(this.btnUbah_Click);
             // 
             // btnTambah
             // 
@@ -108,6 +111,7 @@
             this.btnTambah.TabIndex = 6;
             this.btnTambah.Text = "Tambah";
             this.btnTambah.UseVisualStyleBackColor = true;
+            this.btnTambah.Click += new System.EventHandler(this.btnTambah_Click);
             // 
             // txtPenerbit
             // 
@@ -229,6 +233,7 @@
             this.btnSimpan.TabIndex = 10;
             this.btnSimpan.Text = "Simpan File ke XML";
             this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // btnAmbil
             // 
@@ -238,6 +243,7 @@
             this.btnAmbil.TabIndex = 11;
             this.btnAmbil.Text = "Ambil File XML";
             this.btnAmbil.UseVisualStyleBackColor = true;
+            this.btnAmbil.Click += new System.EventHandler(this.btnAmbil_Click);
             // 
             // Form1
             // 
