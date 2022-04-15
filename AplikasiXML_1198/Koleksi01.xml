@@ -1,0 +1,35 @@
+<?xml-stylesheet type="text/css" href="Koleksi01.css"?>
+<Koleksi>
+<Film>
+<Judul>Captain America: Civil War</Judul>
+<Sutradara>Anthony Russo, Joe Russo</Sutradara>
+<Genre>Aksi, Drama, Fiktif</Genre>
+<Pemain1>Chris Evans</Pemain1>
+<Pemain2>Robert Downey Jr.</Pemain2>
+<Pemain3>Scarlett Johansson</Pemain3>
+<Review>Film ini menceritakan bahwa Captain Amerika yang sekarang menjadi pemimpin militer Amerika, dan bahwa ia menjadi salah satu pahlawan yang paling kuat di dunia. Film ini menceritakan perjalanan Captain Amerika dan banyak peristiwa lainnya yang mengantarkannya ke dunia baru.</Review>
+<Studio>Marvel Studios</Studio>
+</Film>
+
+<Film>
+<Judul>Avengers: Infinity War</Judul>
+<Sutradara>Anthony Russo, Joe Russo</Sutradara>
+<Genre>Aksi, Drama, Fiktif</Genre>
+<Pemain1>Chris Evans</Pemain1>
+<Pemain2>Robert Downey Jr.</Pemain2>
+<Pemain3>Scarlett Johansson</Pemain3>
+<Review>Film ini menceritakan bahwa Captain Amerika yang sekarang menjadi pemimpin militer Amerika, dan bahwa ia menjadi salah satu pahlawan yang paling kuat di dunia. Film ini menceritakan perjalanan Captain Amerika dan banyak peristiwa lainnya yang mengantarkannya ke dunia baru.</Review>
+<Studio>Marvel Studios</Studio>
+</Film>
+
+<Film>
+<Judul>Avengers: Endgame</Judul>
+<Sutradara>Anthony Russo, Joe Russo</Sutradara>
+<Genre>Aksi, Drama, Fiktif</Genre>
+<Pemain1>Chris Evans</Pemain1>
+<Pemain2>Robert Downey Jr.</Pemain2>
+<Pemain3>Scarlett Johansson</Pemain3>
+<Review>Film ini menceritakan bahwa Captain Amerika yang sekarang menjadi pemimpin militer Amerika, dan bahwa ia menjadi salah satu pahlawan yang paling kuat di dunia. Film ini menceritakan perjalanan Captain Amerika dan banyak peristiwa lainnya yang mengantarkannya ke dunia baru.</Review>
+<Studio>Marvel Studios</Studio>
+</Film>
+</Koleksi>
