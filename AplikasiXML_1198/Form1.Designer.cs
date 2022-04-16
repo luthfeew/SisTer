@@ -30,6 +30,9 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgv1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnHapus = new System.Windows.Forms.Button();
             this.btnUbah = new System.Windows.Forms.Button();
             this.btnTambah = new System.Windows.Forms.Button();
@@ -49,9 +52,6 @@
             this.txtTelp = new System.Windows.Forms.TextBox();
             this.btnSimpan = new System.Windows.Forms.Button();
             this.btnAmbil = new System.Windows.Forms.Button();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv1)).BeginInit();
             this.SuspendLayout();
@@ -89,6 +89,27 @@
             this.dgv1.Size = new System.Drawing.Size(521, 150);
             this.dgv1.TabIndex = 9;
             this.dgv1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgv1_MouseClick);
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Kode Buku";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Judul Buku";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Penerbit";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 125;
             // 
             // btnHapus
             // 
@@ -189,7 +210,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(386, 89);
+            this.label3.Location = new System.Drawing.Point(393, 89);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 16);
             this.label3.TabIndex = 4;
@@ -198,7 +219,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(386, 51);
+            this.label4.Location = new System.Drawing.Point(393, 51);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 16);
             this.label4.TabIndex = 3;
@@ -215,7 +236,7 @@
             // 
             this.txtNama.Location = new System.Drawing.Point(138, 86);
             this.txtNama.Name = "txtNama";
-            this.txtNama.Size = new System.Drawing.Size(100, 22);
+            this.txtNama.Size = new System.Drawing.Size(232, 22);
             this.txtNama.TabIndex = 6;
             // 
             // txtEmail
@@ -251,27 +272,6 @@
             this.btnAmbil.Text = "Ambil File XML";
             this.btnAmbil.UseVisualStyleBackColor = true;
             this.btnAmbil.Click += new System.EventHandler(this.btnAmbil_Click);
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Kode Buku";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Judul Buku";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 125;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Penerbit";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 125;
             // 
             // Form1
             // 

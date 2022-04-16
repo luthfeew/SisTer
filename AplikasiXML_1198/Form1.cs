@@ -25,6 +25,17 @@ namespace AplikasiXML_1198
             txtKode.Focus();
         }
 
+        void bersihdata()
+        {
+            txtId.Clear();
+            txtNama.Clear();
+            txtTelp.Clear();
+            txtEmail.Clear();
+            dgv1.Rows.Clear();
+            bersihbuku();
+            txtId.Focus();
+        }
+
         private void btnTambah_Click(object sender, EventArgs e)
         {
             int n = dgv1.Rows.Add();
@@ -87,13 +98,17 @@ namespace AplikasiXML_1198
                 row1["Penerbit"] = baris.Cells[2].Value;
                 ds.Tables["Buku"].Rows.Add(row1);
             }
+
+            ds.WriteXml("D:\\Katalog.xml");
+            MessageBox.Show("Data sudah tersimpan", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            bersihdata();
         }
 
         private void btnAmbil_Click(object sender, EventArgs e)
         {
             DataSet ds = new DataSet();
 
-            ds.ReadXml("F:\\Katalog.xml");
+            ds.ReadXml("D:\\Katalog.xml");
             txtId.Text = ds.Tables["Pengarang"].Rows[0][0].ToString();
             txtNama.Text = ds.Tables["Pengarang"].Rows[0][1].ToString();
             txtTelp.Text = ds.Tables["Pengarang"].Rows[0][2].ToString();
