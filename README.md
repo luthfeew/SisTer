@@ -1,6 +1,6 @@
 # Sistem-Terdistribusi
 
-## Requirement(s):
+## Requirement:
 - Visual Studio 2010 ~ 2015.
 - Visual Studio 2017 or later with the following components installed:
   - Workloads
@@ -23,4 +23,4 @@
 Pull requests are welcome ^‿^
 
 ## License
-[MIT](https://github.com/luthfeew/SisTer/blob/main/LICENSE)
+[MIT](https://github.com/luthfeew/SisTerPraktikum/blob/main/LICENSE)
